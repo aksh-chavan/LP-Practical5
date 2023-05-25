@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Simple Ecommerce Website</title>
+    <!-- <link rel="stylesheet" href="index.css"> -->
+</head>
+<style>
+    
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+header {
+    background-color: lightsalmon;
+    color: black;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+}
+
+.section {
+    height: 178px;
+    margin-top: 40px;
+}
+
+.card {
+
+    display: inline-block;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin-left: 15px;
+    margin-right: 60px;
+    margin-top: 15px;
+}
+
+.card:hover {
+    transform: scale(1.05);
+
+}
+
+.footer {
+    background-color: lightsalmon;
+    color: black;
+    padding: 10px;
+    padding-left: 0%;
+    padding-right: 0%;
+    margin-top: 278px;
+    margin-bottom: 0%;
+    text-align: center;
+}
+
+#btn {
+    float: right;
+}
+
+#img {
+    height: 40%;
+    width: 25%;
+}
+
+#img2 {
+    height: 30px;
+    width: 25px;
+     }
+
+#img3 {
+    height: 35px;
+    width: 25px;
+}
+
+</style>
+<body>
+    <div class="container">
+        <header>
+            <nav>
+                <ul>
+                    <li> <a href="#">Home</a></li>
+                    <li><a href="#">Products</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li id="btn"><button>Login</button></li>
+                </ul>
+            </nav>
+        </header>
+
+        <div class="card" style="width: 18rem;">
+            <img id="img" src="images/watch.jpg" alt="">
+            <div class="card-body">
+                <h5 class="card-title">Smart Watch</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+                <a href="https://www.boat-lifestyle.com/" class="btn" target="_blank">Click here</a>
+            </div>
+        </div>
+
+
+        <div class="card" style="width: 18rem;">
+            <img id="img2" src="images/mobile1.jpg" alt="">
+            <div class="card-body">
+                <h5 class="card-title">Mobile</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+                <a href="https://www.samsung.com/in/" class="btn btn-primary" target="_blank">Click here</a>
+            </div>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+            <img id="img3" src="images/laptop.jpg" alt="">
+            <div class="card-body">
+                <h5 class="card-title">Laptop</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+                <a href="https://www.asus.com/in/" class="btn" target="_blank">Click here for more result</a>
+            </div>
+        </div>
+
+
+
+
+    </div>
+
+    <footer class="footer">
+        <p>&copy; 2023 Simple Ecommerce Website. All rights reserved.</p>
+    </footer>
+    </div>
+</body>
+
+</html>
